@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "pushcrew-staging-backend",
+  "version": "1.0.0",
+  "description": "A Node.js app for listening to staging commands from PushCrew's Slack",
   "engines": {
     "node": "5.9.1"
   },
@@ -10,8 +10,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+    "body-parser": "^1.16.0",
+    "express": "4.13.3",
+    "firebase-admin": "^4.0.6",
+    "request": "^2.79.0"
   },
   "repository": {
     "type": "git",
